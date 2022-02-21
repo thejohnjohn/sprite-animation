@@ -11,21 +11,16 @@
 npm install -g @lightningjs/cli
 ```
 
-#### Running the App
+## How I create the app?
+I use the command:
+```
+lng create
+```
+and I just make some changes to move the lightning image.
 
-1. Install the NPM dependencies by running `npm install`
-
-2. Build the App using the _Lightning-CLI_ by running `lng build` inside the root of your project
-
-3. Fire up a local webserver and open the App in a browser by running `lng serve` inside the root of your project
-
-#### Developing the App
-
-During development you can use the **watcher** functionality of the _Lightning-CLI_.
-
-- use `lng watch` to automatically _rebuild_ your App whenever you make a change in the `src` or  `static` folder
-- use `lng dev` to start the watcher and run a local webserver / open the App in a browser _at the same time_
-
-#### Documentation
-
-Use `lng docs` to open up the Lightning-SDK documentation.
+## Running the App
+Open the browser and terminal and run the command
+```
+lng dev
+```
+Automatically your browser will open the address (http://127.0.0.1:8080)
